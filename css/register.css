@@ -1,0 +1,187 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    padding-top: 16px;
+    border-bottom: 2px solid #e94343;
+}
+
+.style_red {
+    color: #F34D37;
+}
+
+/* .style_link {
+    color: #4479ff;
+} */
+button,
+input {
+    border: 0;
+    outline: none;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 800px;
+    border: 1px solid #eee;
+}
+
+.registerarea_hd {
+    height: 40px;
+    background: #F8F8F9;
+    border-bottom: 1px solid #eee;
+    padding: 0 10px;
+}
+
+.registerarea_hd h4 {
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+    color: #333;
+}
+
+.registerarea_hd .login {
+    float: right;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+.reg_from {
+    width: 800px;
+    margin: 160px auto 0;
+    /* background: #333; */
+}
+
+.reg_from ul li {
+    padding-bottom: 20px;
+}
+
+.reg_from ul li label {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+.reg_from ul li .input_text {
+    width: 300px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #999;
+    border: 1px solid #EEEEEE;
+}
+
+.reg_from ul li input:focus {
+    border: 1px solid #4479ff;
+    outline: none;
+}
+
+.reg_from .error {
+    color: #F34D37;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../image/error.png) no-repeat;
+    vertical-align: middle;
+}
+
+.reg_from .success {
+    color: #0CBC4F;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../image/success.png) no-repeat;
+    vertical-align: middle;
+}
+
+.safe {
+    margin: -8px 0 0 236px;
+
+}
+
+.safe em {
+    padding: 2px 12px;
+    color: #fff;
+}
+
+.ruo {
+    background: #F31E00;
+}
+
+.zhong {
+    background: #2CA62E;
+}
+
+.qiang {
+    background: #FF9400;
+}
+
+.agree {
+    margin-left: 100px;
+    font-size: 14px;
+    color: #999;
+}
+
+.agree input {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #4479ff;
+}
+
+.agree a:hover {
+    text-decoration: underline;
+}
+
+.reg_from .btn {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.reg_from .btn_submit {
+    width: 200px;
+    height: 48px;
+    line-height: 32px;
+    background: #e94343;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.mod_coyprigh {
+    margin-top: 20px;
+    padding-left: 200px;
+
+}
+
+.mod_coyprigh p {
+    float: left;
+    font-size: 12px;
+    padding-right: 8px;
+    color: #999;
+
+
+}
