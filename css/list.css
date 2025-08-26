@@ -1,0 +1,160 @@
+.seckill {
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    border-left: 1px solid #e94343;
+    padding-left: 10px;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    height: 48px;
+}
+
+.sk_list ul li a {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sk_con ul li {
+    float: left;
+    height: 48px;
+
+}
+
+.sk_con ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 24px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sk_con ul li:hover a {
+    background-color: #e94343;
+    color: #fff;
+}
+
+/* 内容区域模块 */
+.sk_hd {
+    margin: 10px 0;
+}
+
+.sk_bd ul {
+    height: 1000px;
+    /* margin: 8px; */
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e94343;
+}
+
+.sk_bd h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* .sk_bd p {
+    float: left;
+} */
+
+.price {
+    height: 32px;
+}
+
+.price p,
+.price .market_price {
+    color: #e94343;
+}
+
+.price p {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.market_price {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price .pinno_price {
+    text-decoration: line-through;
+    color: #999;
+    margin: 4px 10px 0 10px;
+}
+
+.sale_price {
+    height: 24px;
+    line-height: 24px;
+}
+
+.sale_price p {
+    float: left;
+    font-size: 14px;
+    color: #333;
+
+}
+
+.jindu {
+    float: left;
+    width: 140px;
+    height: 16px;
+    border: 1px solid #e94343;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.jindu_in {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    background: #e94343;
+    margin: 0;
+    transition: width .6s;
+}
+
+.jindu:hover .jindu_in {
+    width: 100%;
+}
+
+.buy_btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e94343;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
